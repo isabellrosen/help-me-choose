@@ -1,16 +1,20 @@
 body {
+background: linear-gradient(#6A65D8, #1D2786);
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 150px;
+margin-top: 180px;
+margin-bottom: 240px;
 }
 
 h1 {
   font-weight: lighter;
-  font-size: 40px;
+  font-family: helvetica;
+  font-size: 45px;
   letter-spacing: 2px;
   margin-bottom: 0px;
+  color: #FFE6EB
 }
 
 .inputSection {
