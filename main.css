@@ -1,5 +1,5 @@
 body {
-background: linear-gradient(#6A65D8, #1D2786);
+background: linear-gradient(#702283, #962071);
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -10,11 +10,11 @@ margin-bottom: 240px;
 
 h1 {
   font-weight: lighter;
-  font-family: helvetica;
-  font-size: 45px;
+  font-family: Century Gothic, sans-serif;
+  font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 0px;
-  color: #FFE6EB
+  color: #FDB44B
 }
 
 .inputSection {
@@ -30,8 +30,54 @@ h1 {
 
 input {
   margin-top: 10px;
+  background-color: #FFE8D5;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: none;
+  font-size: 16px;
+  font-family: Century Gothic, sans-serif;
+  height: 35px;
+  text-align: center;
+
 }
 
 .addOption {
   margin-top: 10px;
+  background-color: #FDB44B;
+  color: #702283;
+  font-family: Century Gothic, sans-serif;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: none;
+  font-size: 20px;
+}
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #FFE8D5;
+  font-family: Century Gothic, sans-serif;
+}
+
+.submit {
+  background-color: #76B39D;
+  border: none;
+  color: #FFE8D5;
+  padding: 25px, 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  font-family: Century Gothic, sans-serif;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  width: 80px;
+  font-weight: lighter;
+
 }
